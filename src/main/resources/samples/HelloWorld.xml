@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <statement id="0">
+        <discription>Hello, world!</discription>
+        <concept-group id="13" type="concept-group"/>
+    </statement>
+    <concept id="1">
+        <discription>hello</discription>
+        <sub-concept-group id="14" type="concept-group"/>
+    </concept>
+    <concept id="2">
+        <discription>,</discription>
+    </concept>
+    <concept id="3">
+        <discription>world</discription>
+        <sub-concept-group id="15" type="concept-group"/>
+    </concept>
+    <concept id="4">
+        <discription>!</discription>
+    </concept>
+    <concept id="5">
+        <discription>H</discription>
+    </concept>
+    <concept id="6">
+        <discription>h</discription>
+    </concept>
+    <concept id="7">
+        <discription>e</discription>
+    </concept>
+    <concept id="8">
+        <discription>l</discription>
+    </concept>
+    <concept id="9">
+        <discription>o</discription>
+    </concept>
+    <concept id="10">
+        <discription>w</discription>
+    </concept>
+    <concept id="11">
+        <discription>r</discription>
+    </concept>
+    <concept id="12">
+        <discription>d</discription>
+    </concept>
+    <concept id="13" type="concept-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="concept"/>
+            <item key="group_4" id="4" type="concept"/>
+            <item key="group_1" id="1" type="concept"/>
+            <item key="group_3" id="3" type="concept"/>
+            <item key="group_2" id="2" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="14" type="concept-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_8" id="8" type="concept"/>
+            <item key="group_7" id="7" type="concept"/>
+            <item key="group_6" id="6" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="15" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_8" id="8" type="concept"/>
+            <item key="group_11" id="11" type="concept"/>
+            <item key="group_12" id="12" type="concept"/>
+        </itx-elements>
+    </concept>
+</lim-elements>
