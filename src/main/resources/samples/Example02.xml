@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="0">
+        <discription>① Because the greatest mitochondrial variations occurred in African people, ② scientists concluded that they had the longest evolutionary history, ③ indicating a probable African origin for modern humans.</discription>
+        <sub-Argument-group id="34" type="argument-group"/>
+    </argument>
+    <argument id="1">
+        <relation-group id="10" type="relation-group"/>
+        <discription>① Because the greatest mitochondrial variations occurred in African people, ② scientists concluded that they had the longest evolutionary history,</discription>
+        <causality-relation id="17" type="causality-relation"/>
+        <judged-statement-group id="12" type="judged-statement-group"/>
+        <attribute-group id="8" type="attribute-group"/>
+    </argument>
+    <argument id="2">
+        <relation-group id="24" type="relation-group"/>
+        <discription>② (scientists concluded that )they had the longest evolutionary history, ③ indicating a probable African origin for modern humans.</discription>
+        <causality-relation id="31" type="causality-relation"/>
+        <judged-statement-group id="26" type="judged-statement-group"/>
+        <attribute-group id="22" type="attribute-group"/>
+    </argument>
+    <judged-statement id="3" type="proposition">
+        <discription>the greatest mitochondrial variations occurred in African people,</discription>
+    </judged-statement>
+    <judged-statement id="4" type="proposition">
+        <discription>scientists concluded that they had the longest evolutionary history,</discription>
+    </judged-statement>
+    <judged-statement id="5" type="proposition">
+        <discription>(there is )a probable African origin for modern humans.</discription>
+    </judged-statement>
+    <judged-statement id="6" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_3" id="3" type="proposition"/>
+        </itx-elements>
+        <relation-group id="18" type="relation-group"/>
+    </judged-statement>
+    <attribute key="EVIDENCE" id="7">
+        <relation-group id="11" type="relation-group"/>
+        <value id="6" type="judged-statement-group"/>
+    </attribute>
+    <attribute id="8" type="attribute-group">
+        <itx-elements>
+            <item key="group_7" id="7" type="attribute"/>
+            <item key="group_14" id="14" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="9" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="7" type="attribute"/>
+            <item key="master" id="1" type="argument"/>
+        </itx-elements>
+    </relation>
+    <relation id="10" type="relation-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="affiliation-relation"/>
+            <item key="group_15" id="15" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="11" type="relation-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="12" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_4" id="4" type="proposition"/>
+            <item key="group_3" id="3" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <judged-statement id="13" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_4" id="4" type="proposition"/>
+        </itx-elements>
+        <relation-group id="19" type="relation-group"/>
+    </judged-statement>
+    <attribute key="CONCLUSION" id="14">
+        <relation-group id="16" type="relation-group"/>
+        <value id="13" type="judged-statement-group"/>
+    </attribute>
+    <relation id="15" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="14" type="attribute"/>
+            <item key="master" id="1" type="argument"/>
+        </itx-elements>
+    </relation>
+    <relation id="16" type="relation-group">
+        <itx-elements>
+            <item key="group_15" id="15" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="17" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="13" type="judged-statement-group"/>
+            <item key="cause" id="6" type="judged-statement-group"/>
+        </itx-elements>
+    </relation>
+    <relation id="18" type="relation-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="19" type="relation-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="20" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_4" id="4" type="proposition"/>
+        </itx-elements>
+        <relation-group id="32" type="relation-group"/>
+    </judged-statement>
+    <attribute key="EVIDENCE" id="21">
+        <relation-group id="25" type="relation-group"/>
+        <value id="20" type="judged-statement-group"/>
+    </attribute>
+    <attribute id="22" type="attribute-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="attribute"/>
+            <item key="group_28" id="28" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="23" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="21" type="attribute"/>
+            <item key="master" id="2" type="argument"/>
+        </itx-elements>
+    </relation>
+    <relation id="24" type="relation-group">
+        <itx-elements>
+            <item key="group_29" id="29" type="affiliation-relation"/>
+            <item key="group_23" id="23" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="25" type="relation-group">
+        <itx-elements>
+            <item key="group_23" id="23" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="26" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="proposition"/>
+            <item key="group_4" id="4" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <judged-statement id="27" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="proposition"/>
+        </itx-elements>
+        <relation-group id="33" type="relation-group"/>
+    </judged-statement>
+    <attribute key="CONCLUSION" id="28">
+        <relation-group id="30" type="relation-group"/>
+        <value id="27" type="judged-statement-group"/>
+    </attribute>
+    <relation id="29" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="28" type="attribute"/>
+            <item key="master" id="2" type="argument"/>
+        </itx-elements>
+    </relation>
+    <relation id="30" type="relation-group">
+        <itx-elements>
+            <item key="group_29" id="29" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="31" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="27" type="judged-statement-group"/>
+            <item key="cause" id="20" type="judged-statement-group"/>
+        </itx-elements>
+    </relation>
+    <relation id="32" type="relation-group">
+        <itx-elements>
+            <item key="group_31" id="31" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="33" type="relation-group">
+        <itx-elements>
+            <item key="group_31" id="31" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <argument id="34" type="argument-group">
+        <itx-elements>
+            <item key="group_1" id="1" type="argument"/>
+            <item key="group_2" id="2" type="argument"/>
+        </itx-elements>
+    </argument>
+</lim-elements>

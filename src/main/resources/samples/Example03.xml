@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="0">
+        <relation-group id="9" type="relation-group"/>
+        <discription>① An outstanding advantage of nuclear over fossil fuel energy is how easy it is to deal with the waste it produces. ② Burning fossil fuels produces 27,000 million tons of carbon dioxide yearly, enough to make, if solidified, a mountain nearly one mile high with a base twelve miles in circumference. ③ The same quantity of energy produced from nuclear fission reactions would generate two million times less waste, and it would occupy a sixteen-meter cube. ④ All of the high-level waste produced in a year from a nuclear power station would occupy a space about a cubic meter in size and would fit safely in a concrete pit.</discription>
+        <causality-relation id="16" type="causality-relation"/>
+        <judged-statement-group id="11" type="judged-statement-group"/>
+        <attribute-group id="7" type="attribute-group"/>
+    </argument>
+    <judged-statement id="1" type="proposition">
+        <discription>An outstanding advantage of nuclear over fossil fuel energy is how easy it is to deal with the waste it produces.</discription>
+    </judged-statement>
+    <judged-statement id="2" type="proposition">
+        <discription>Burning fossil fuels produces 27,000 million tons of carbon dioxide yearly, enough to make, if solidified, a mountain nearly one mile high with a base twelve miles in circumference.</discription>
+    </judged-statement>
+    <judged-statement id="3" type="proposition">
+        <discription>The same quantity of energy produced from nuclear fission reactions would generate two million times less waste, and it would occupy a sixteen-meter cube.</discription>
+    </judged-statement>
+    <judged-statement id="4" type="proposition">
+        <discription>All of the high-level waste produced in a year from a nuclear power station would occupy a space about a cubic meter in size and would fit safely in a concrete pit.</discription>
+    </judged-statement>
+    <judged-statement id="5" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_4" id="4" type="proposition"/>
+            <item key="group_3" id="3" type="proposition"/>
+            <item key="group_2" id="2" type="proposition"/>
+        </itx-elements>
+        <relation-group id="17" type="relation-group"/>
+    </judged-statement>
+    <attribute key="EVIDENCE" id="6">
+        <relation-group id="10" type="relation-group"/>
+        <value id="5" type="judged-statement-group"/>
+    </attribute>
+    <attribute id="7" type="attribute-group">
+        <itx-elements>
+            <item key="group_6" id="6" type="attribute"/>
+            <item key="group_13" id="13" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="8" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="6" type="attribute"/>
+            <item key="master" id="0" type="argument"/>
+        </itx-elements>
+    </relation>
+    <relation id="9" type="relation-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="affiliation-relation"/>
+            <item key="group_14" id="14" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="10" type="relation-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="11" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_4" id="4" type="proposition"/>
+            <item key="group_1" id="1" type="proposition"/>
+            <item key="group_3" id="3" type="proposition"/>
+            <item key="group_2" id="2" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <judged-statement id="12" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_1" id="1" type="proposition"/>
+        </itx-elements>
+        <relation-group id="18" type="relation-group"/>
+    </judged-statement>
+    <attribute key="CONCLUSION" id="13">
+        <relation-group id="15" type="relation-group"/>
+        <value id="12" type="judged-statement-group"/>
+    </attribute>
+    <relation id="14" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="13" type="attribute"/>
+            <item key="master" id="0" type="argument"/>
+        </itx-elements>
+    </relation>
+    <relation id="15" type="relation-group">
+        <itx-elements>
+            <item key="group_14" id="14" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="16" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="12" type="judged-statement-group"/>
+            <item key="cause" id="5" type="judged-statement-group"/>
+        </itx-elements>
+    </relation>
+    <relation id="17" type="relation-group">
+        <itx-elements>
+            <item key="group_16" id="16" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="18" type="relation-group">
+        <itx-elements>
+            <item key="group_16" id="16" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+</lim-elements>

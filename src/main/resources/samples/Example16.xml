@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="0">
+        <relation-group id="12" type="relation-group"/>
+        <discription>This earth which we inhabit, and the other planets, Saturn, Jupiter, Mars, Venus, and Mercury .... They all revolve around the sun, ... they borrow all their light from the sun, ... they are all subject to the same law of gravitation .... From all this similitude, it is not unreasonable to think that those planets may, like our earth, be the habitation of various orders of living creatures.</discription>
+        <sub-information-element-group id="7" type="information-element-group"/>
+        <causality-relation id="19" type="causality-relation"/>
+        <judged-statement-group id="14" type="judged-statement-group"/>
+        <attribute-group id="10" type="attribute-group"/>
+    </argument>
+    <statement id="1">
+        <discription>This earth which we inhabit, and the other planets, Saturn, Jupiter, Mars, Venus, and Mercury</discription>
+    </statement>
+    <judged-statement id="2" type="proposition">
+        <discription>They all revolve around the sun,</discription>
+    </judged-statement>
+    <judged-statement id="3" type="proposition">
+        <discription>they borrow all their light from the sun,</discription>
+    </judged-statement>
+    <judged-statement id="4" type="proposition">
+        <discription>they are all subject to the same law of gravitation</discription>
+    </judged-statement>
+    <judged-statement id="5" type="proposition">
+        <discription>From all this similitude, it is not unreasonable to think that those planets may, like our earth, be the habitation of various orders of living creatures.</discription>
+    </judged-statement>
+    <judged-statement id="6" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_4" id="4" type="proposition"/>
+            <item key="group_3" id="3" type="proposition"/>
+            <item key="group_2" id="2" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <information-element id="7" type="information-element-group">
+        <itx-elements>
+            <item key="group_1" id="1" type="statement"/>
+        </itx-elements>
+    </information-element>
+    <judged-statement id="8" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_6" id="6" type="judged-statement-group"/>
+        </itx-elements>
+        <relation-group id="20" type="relation-group"/>
+    </judged-statement>
+    <attribute key="EVIDENCE" id="9">
+        <relation-group id="13" type="relation-group"/>
+        <value id="8" type="judged-statement-group"/>
+    </attribute>
+    <attribute id="10" type="attribute-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="attribute"/>
+            <item key="group_16" id="16" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="11" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="9" type="attribute"/>
+            <item key="master" id="0" type="argument"/>
+        </itx-elements>
+    </relation>
+    <relation id="12" type="relation-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="affiliation-relation"/>
+            <item key="group_11" id="11" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="13" type="relation-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="14" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="proposition"/>
+            <item key="group_6" id="6" type="judged-statement-group"/>
+        </itx-elements>
+    </judged-statement>
+    <judged-statement id="15" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="proposition"/>
+        </itx-elements>
+        <relation-group id="21" type="relation-group"/>
+    </judged-statement>
+    <attribute key="CONCLUSION" id="16">
+        <relation-group id="18" type="relation-group"/>
+        <value id="15" type="judged-statement-group"/>
+    </attribute>
+    <relation id="17" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="16" type="attribute"/>
+            <item key="master" id="0" type="argument"/>
+        </itx-elements>
+    </relation>
+    <relation id="18" type="relation-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="19" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="15" type="judged-statement-group"/>
+            <item key="cause" id="8" type="judged-statement-group"/>
+        </itx-elements>
+    </relation>
+    <relation id="20" type="relation-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="21" type="relation-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <concept id="22">
+        <relation-group id="36" type="relation-group"/>
+        <discription>the earth</discription>
+    </concept>
+    <concept id="23">
+        <relation-group id="37" type="relation-group"/>
+        <discription>other planets, Saturn, Jupiter, Mars, Venus, and Mercury</discription>
+        <sub-concept-group id="34" type="concept-group"/>
+    </concept>
+    <concept id="24">
+        <discription>other planets</discription>
+    </concept>
+    <concept id="25">
+        <discription>Saturn</discription>
+    </concept>
+    <concept id="26">
+        <discription>Jupiter</discription>
+    </concept>
+    <concept id="27">
+        <discription>Mars</discription>
+    </concept>
+    <concept id="28">
+        <discription>Venus</discription>
+    </concept>
+    <concept id="29">
+        <discription>Mercury</discription>
+    </concept>
+    <concept id="30">
+        <discription>revolve around the sun</discription>
+    </concept>
+    <concept id="31">
+        <discription>borrow all light from the sun</discription>
+    </concept>
+    <concept id="32">
+        <discription>be subject to the same law of gravitation</discription>
+    </concept>
+    <concept id="33">
+        <discription>be the habitation of various orders of living creatures</discription>
+    </concept>
+    <concept id="34" type="concept-group">
+        <itx-elements>
+            <item key="group_28" id="28" type="concept"/>
+            <item key="group_29" id="29" type="concept"/>
+            <item key="group_26" id="26" type="concept"/>
+            <item key="group_27" id="27" type="concept"/>
+            <item key="group_24" id="24" type="concept"/>
+            <item key="group_25" id="25" type="concept"/>
+        </itx-elements>
+    </concept>
+    <relation id="35" type="mapping-relation">
+        <primary id="22" type="concept"/>
+        <secondary id="23" type="concept"/>
+    </relation>
+    <relation id="36" type="relation-group">
+        <itx-elements>
+            <item key="group_40" id="40" type="predicate-mapping-relation"/>
+            <item key="group_41" id="41" type="predicate-mapping-relation"/>
+            <item key="group_39" id="39" type="predicate-mapping-relation"/>
+            <item key="group_38" id="38" type="predicate-mapping-relation"/>
+            <item key="group_35" id="35" type="mapping-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="37" type="relation-group">
+        <itx-elements>
+            <item key="group_40" id="40" type="predicate-mapping-relation"/>
+            <item key="group_41" id="41" type="predicate-mapping-relation"/>
+            <item key="group_39" id="39" type="predicate-mapping-relation"/>
+            <item key="group_38" id="38" type="predicate-mapping-relation"/>
+            <item key="group_35" id="35" type="mapping-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="38" type="predicate-mapping-relation">
+        <itx-elements>
+            <item key="predicate" id="30" type="concept"/>
+        </itx-elements>
+        <primary id="22" type="concept"/>
+        <secondary id="23" type="concept"/>
+    </relation>
+    <relation id="39" type="predicate-mapping-relation">
+        <itx-elements>
+            <item key="predicate" id="31" type="concept"/>
+        </itx-elements>
+        <primary id="22" type="concept"/>
+        <secondary id="23" type="concept"/>
+    </relation>
+    <relation id="40" type="predicate-mapping-relation">
+        <itx-elements>
+            <item key="predicate" id="32" type="concept"/>
+        </itx-elements>
+        <primary id="22" type="concept"/>
+        <secondary id="23" type="concept"/>
+    </relation>
+    <relation id="41" type="predicate-mapping-relation">
+        <itx-elements>
+            <item key="predicate" id="33" type="concept"/>
+        </itx-elements>
+        <primary id="22" type="concept"/>
+        <secondary id="23" type="concept"/>
+    </relation>
+    <relation id="42" type="relation-group">
+        <itx-elements>
+            <item key="group_40" id="40" type="predicate-mapping-relation"/>
+            <item key="group_41" id="41" type="predicate-mapping-relation"/>
+            <item key="group_39" id="39" type="predicate-mapping-relation"/>
+            <item key="group_38" id="38" type="predicate-mapping-relation"/>
+        </itx-elements>
+    </relation>
+</lim-elements>

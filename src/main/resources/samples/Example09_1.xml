@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="0">
+        <discription>All mammals have lungs. All whales are mammals. Therefore all whales have lungs.</discription>
+        <judged-statement-group id="9" type="judged-statement-group"/>
+        <condition-group id="8" type="condition-group"/>
+    </argument>
+    <judged-statement id="1" type="proposition">
+        <discription>All mammals have lungs.</discription>
+        <condition-group id="5" type="condition-group"/>
+    </judged-statement>
+    <judged-statement id="2" type="proposition">
+        <discription>All whales are mammals.</discription>
+        <condition-group id="6" type="condition-group"/>
+    </judged-statement>
+    <judged-statement id="3" type="proposition">
+        <discription>All whales have lungs.</discription>
+        <condition-group id="7" type="condition-group"/>
+    </judged-statement>
+    <condition id="4" type="quantifiers-condition">
+        <itx-attributes>
+            <item key="quantifiers-type" value="UNIVERSAL"/>
+        </itx-attributes>
+        <discription>all</discription>
+    </condition>
+    <condition id="5" type="condition-group">
+        <itx-elements>
+            <item key="group_4" id="4" type="quantifiers-condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="6" type="condition-group">
+        <itx-elements>
+            <item key="group_4" id="4" type="quantifiers-condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="7" type="condition-group">
+        <itx-elements>
+            <item key="group_4" id="4" type="quantifiers-condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="8" type="condition-group">
+        <itx-elements>
+            <item key="group_4" id="4" type="quantifiers-condition"/>
+        </itx-elements>
+    </condition>
+    <judged-statement id="9" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_1" id="1" type="proposition"/>
+            <item key="group_3" id="3" type="proposition"/>
+            <item key="group_2" id="2" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+</lim-elements>

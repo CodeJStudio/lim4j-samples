@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="0">
+        <relation-group id="8" type="relation-group"/>
+        <discription>① All mammals are warm-blooded animals. ② No lizards are warm-blooded animals. ③ Therefore all lizards are nonmammals.</discription>
+        <causality-relation id="15" type="causality-relation"/>
+        <judged-statement-group id="10" type="judged-statement-group"/>
+        <attribute-group id="6" type="attribute-group"/>
+    </argument>
+    <judged-statement id="1" type="proposition">
+        <discription>All mammals are warm-blooded animals.</discription>
+    </judged-statement>
+    <judged-statement id="2" type="proposition">
+        <discription>No lizards are warm-blooded animals.</discription>
+    </judged-statement>
+    <judged-statement id="3" type="proposition">
+        <discription>All lizards are nonmammals.</discription>
+    </judged-statement>
+    <judged-statement id="4" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_1" id="1" type="proposition"/>
+            <item key="group_2" id="2" type="proposition"/>
+        </itx-elements>
+        <relation-group id="16" type="relation-group"/>
+    </judged-statement>
+    <attribute key="EVIDENCE" id="5">
+        <relation-group id="9" type="relation-group"/>
+        <value id="4" type="judged-statement-group"/>
+    </attribute>
+    <attribute id="6" type="attribute-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="attribute"/>
+            <item key="group_12" id="12" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="7" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="5" type="attribute"/>
+            <item key="master" id="0" type="argument"/>
+        </itx-elements>
+    </relation>
+    <relation id="8" type="relation-group">
+        <itx-elements>
+            <item key="group_7" id="7" type="affiliation-relation"/>
+            <item key="group_13" id="13" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="9" type="relation-group">
+        <itx-elements>
+            <item key="group_7" id="7" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="10" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_1" id="1" type="proposition"/>
+            <item key="group_3" id="3" type="proposition"/>
+            <item key="group_2" id="2" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <judged-statement id="11" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_3" id="3" type="proposition"/>
+        </itx-elements>
+        <relation-group id="17" type="relation-group"/>
+    </judged-statement>
+    <attribute key="CONCLUSION" id="12">
+        <relation-group id="14" type="relation-group"/>
+        <value id="11" type="judged-statement-group"/>
+    </attribute>
+    <relation id="13" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="12" type="attribute"/>
+            <item key="master" id="0" type="argument"/>
+        </itx-elements>
+    </relation>
+    <relation id="14" type="relation-group">
+        <itx-elements>
+            <item key="group_13" id="13" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="15" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="11" type="judged-statement-group"/>
+            <item key="cause" id="4" type="judged-statement-group"/>
+        </itx-elements>
+    </relation>
+    <relation id="16" type="relation-group">
+        <itx-elements>
+            <item key="group_15" id="15" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="17" type="relation-group">
+        <itx-elements>
+            <item key="group_15" id="15" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+</lim-elements>
